@@ -1,0 +1,43 @@
+define start ()
+constants
+pi=3.141
+three = 3
+apple  = "a"
+d10 = true
+variables
+a,b,c : integer
+d,e : real
+f,ff : boolean
+g,h,i : string
+j,k : character
+begin
+a := 3
+b := 4
+j := '@'
+k := '@'
+f := true
+ff := false
+g := "abc"
+h := "ab"
+h := h + 'c'
+i := "abcabc"
+if g + h = i then
+begin
+write pi
+end
+end
+
+(*
+define fib(var a : boolean)
+variables
+begin
+squareRoot 49, var a
+write var a
+a := 8
+realToInteger var a, var a
+write var a
+getRandom var a
+write var a
+end
+*)
+
